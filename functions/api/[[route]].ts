@@ -9,4 +9,10 @@ app.get('/hello', (c) => {
   })
 })
 
+app.get("/world", (c) => {
+  return c.json({
+    message: "World from Hono!",
+  })
+})
+
 export const onRequest = handle(app)
