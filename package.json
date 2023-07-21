@@ -1,9 +1,9 @@
 {
-    "version": "0.0.2",
+    "version": "0.0.3",
     "scripts": {
         "dev": "wrangler pages dev --compatibility-date=2023-01-01 ./pages",
         "deploy": "wrangler pages deploy ./pages",
-        "bump": "npm version patch --force"
+        "bump": "node scripts/bump-version.js"
     },
     "dependencies": {
         "axios": "^1.4.0",
