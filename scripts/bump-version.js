@@ -48,7 +48,7 @@ updateVersion(bumpedVersion);
 
 // commit the changes
 exec(
-    `git add . && git commit -m "bump version to ${bumpedVersion}" && git push origin master`,
+    `git add . && git commit -m "bump version to ${bumpedVersion}" && git push origin main`,
     (err, stdout, stderr) => {
         if (err) {
             console.log(err);
