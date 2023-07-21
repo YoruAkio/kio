@@ -1,5 +1,5 @@
 {
-    "version": "0.0.2",
+    "version": "0.0.3",
     "scripts": {
         "dev": "wrangler pages dev --compatibility-date=2023-01-01 ./pages",
         "deploy": "wrangler pages deploy ./pages",
